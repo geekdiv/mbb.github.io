@@ -1,17 +1,399 @@
 <!DOCTYPE HTML>
+<!--
+	@Author : Divyesh Kanzariya
+	@Design By : GeekDiv
+	Released for free under the Creative Commons Attribution 3.0 license
+-->
 <html>
 
 <head>
 	<title>Mouth Burst</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
 
 </head>
 
 <body>
 
-Hello World1
+	<!-- Header -->
+	<header id="header">
+		<div class="inner">
+
+			<div class="logos">
+				<img src="images/logo.png" alt="" />
+			</div>
+
+			<nav id="nav">
+				<a href="./">Home</a>
+				<a href="#aboutUs">About Us</a>
+				<a href="#product">Product</a>
+				<a href="#contactUs">Contact Us</a>
+			</nav>
+		</div>
+	</header>
+	<a href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+
+	<!-- Banner -->
+	<div id="carouselExampleIndicators" class="carousel slide d-none d-md-block d-lg-block" data-ride="carousel">
+		<ol class="carousel-indicators bg">
+			<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+			<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+			<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+			<li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+			<li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+		</ol>
+		<div class="carousel-inner" role="listbox">
+			<!-- Slide One - Set the background image for this slide in the line below -->
+			<div class="carousel-item slider-img-1 active">
+				<div class="carousel-caption d-none d-md-block">
+					<!-- <h2 class="display-4">First Slide</h2>
+						 <p class="lead">This is a description for the first slide.</p> -->
+				</div>
+			</div>
+
+			<!-- Slide Two - Set the background image for this slide in the line below -->
+			<div class="carousel-item slider-img-2">
+				<div class="carousel-caption d-none d-md-block">
+					<!-- <h2 class="display-4">Second Slide</h2>
+						 <p class="lead">This is a description for the second slide.</p> -->
+				</div>
+			</div>
+			<!-- Slide Three - Set the background image for this slide in the line below -->
+			<div class="carousel-item slider-img-3">
+				<div class="carousel-caption d-none d-md-block">
+					<!-- <h2 class="display-4">Third Slide</h2>
+						 <p class="lead">This is a description for the third slide.</p> -->
+				</div>
+			</div>
+			<!-- Slide Four - Set the background image for this slide in the line below -->
+			<div class="carousel-item slider-img-4">
+				<div class="carousel-caption d-none d-md-block">
+					<!-- <h2 class="display-4">Third Slide</h2>
+						   <p class="lead">This is a description for the third slide.</p> -->
+				</div>
+			</div>
+			<!-- Slide Five - Set the background image for this slide in the line below -->
+			<div class="carousel-item slider-img-5">
+				<div class="carousel-caption d-none d-md-block">
+					<!-- <h2 class="display-4">Third Slide</h2>
+						   <p class="lead">This is a description for the third slide.</p> -->
+				</div>
+			</div>
+		</div>
+		<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		</a>
+		<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		</a>
+	</div>
+
+	<div id="carouselExampleIndicatorsM" class="carousel slide d-block d-sm-none" data-ride="carousel">
+		<ol class="carousel-indicators bg">
+			<li data-target="#carouselExampleIndicatorsM" data-slide-to="0" class="active"></li>
+			<li data-target="#carouselExampleIndicatorsM" data-slide-to="1"></li>
+			<li data-target="#carouselExampleIndicatorsM" data-slide-to="2"></li>
+			<li data-target="#carouselExampleIndicatorsM" data-slide-to="3"></li>
+			<li data-target="#carouselExampleIndicatorsM" data-slide-to="4"></li>
+		</ol>
+		<div class="carousel-inner" role="listbox">
+			<div class="carousel-item slider-img-m-1 active">
+				<div class="carousel-caption d-none d-md-block">
+				</div>
+			</div>
+
+			<div class="carousel-item slider-img-m-2">
+				<div class="carousel-caption d-none d-md-block">
+				</div>
+			</div>
+			<div class="carousel-item slider-img-m-3">
+				<div class="carousel-caption d-none d-md-block">
+				</div>
+			</div>
+			<div class="carousel-item slider-img-m-4">
+				<div class="carousel-caption d-none d-md-block">
+				</div>
+			</div>
+			<div class="carousel-item slider-img-m-5">
+				<div class="carousel-caption d-none d-md-block">
+				</div>
+			</div>
+		</div>
+		<a class="carousel-control-prev" href="#carouselExampleIndicatorsM" role="button" data-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		</a>
+		<a class="carousel-control-next" href="#carouselExampleIndicatorsM" role="button" data-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		</a>
+	</div>
+
+	<section id="aboutUs">
+		<div class="inner about pad50">
+			<header>
+				<div class="text-center product-lbl bot-pad">ABOUT US</div>
+			</header>
+			<p>Mouthburst is a Brand named under the company Khushi Pvt Ltd(11308509), registered in the UK since 2018.
+			</p>
+
+			<p>The Innovative idea of rice crisps came to our mind as we were always looking to do something different
+				than others in field of savoury snacks, as it is the most common product consumed by people all over the
+				world.</p>
+
+			<p>As all major crisps are generally made from potatoes we wanted to try something different so we brought
+				the concept of Flavour Rice Crisps as rice has several health benefits such as
+				Ability to provide instant energy, Regulate and improve bowel movements, Stabilise blood sugar levels,
+				Ability to aid in skin care, Boost metabolism, Regulate digestion, Reduce high blood pressure, Boosts
+				the immune system and many more. So if we get same crunch & taste with mouth bursting flavour ,this is
+				the best snacks to have.</p>
+
+			<p>Our manufacturers are in India which have been in the snacks industry for more than 20 years. They are
+				registered as Fssc 22000, so food safety is always taken seriously. </p>
+
+			<p>We decided to introduce our Brand in London because London is one of the biggest cities in world where we
+				can find people from different cultures and backgrounds who all thrive in the same environment so
+				considering the mixed cultures and communities we came up with three flavours to introduce to the market
+				: Peri Peri, Cream & Onion and Tangy Tomato.</p>
+		</div>
+
+		<div class="inner about pad50 pad-top20">
+			<header>
+				<div class="text-center product-lbl bot-pad top-pad">OUR MISSION</div>
+			</header>
+			<p class="text-center">Dont follow the world, but make the world follow you, Be different and believe in
+				yourself.</p>
+		</div>
+
+		<div class="inner about img-width-50">
+			<div class="text-center">
+				<img class="img-fluid" src="images/our-values.png" alt="" />
+			</div>
+
+		</div>
+
+
+		<div id="product"> </div>
+	</section>
+
+
+
+	<!-- Three -->
+	<section id="three">
+		<div class="text-center product-lbl bot-pad">PRODUCTS</div>
+		<div class="inner d-block d-sm-none">
+
+			<article>
+				<div class="content">
+					<!-- <span class="icon fa-laptop"></span>
+							<header>
+								<h3>Tempus Feugiat</h3>
+							</header>
+							<p>Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna lorem ullamcorper laoreet, lectus arcu.</p>
+							<ul class="actions">
+								<li><a href="#" class="button alt">Learn More</a></li>
+							</ul> -->
+
+					<div class="product-item text-center">
+						<img src="images/mb1.png" alt="" />
+					</div>
+					<div class="text-center co product-name">Tangy Tomato</div>
+					<p class="pad15 text-center">
+						Tangy Tomato like things tangy? This is just the ideal flavor
+						rice snacks for you. Sweet and flavorful, indulge in the aromatic
+						tomato test! To cheer up your mood, open a pack of Tangy Tomato!
+					</p>
+				</div>
+			</article>
+			<article>
+				<div class="content">
+					<div class="product-item text-center">
+						<img src="images/mb2.png" alt="" />
+					</div>
+					<div class="text-center co product-name">Cream & Onion</div>
+					<p class="pad15 text-center">
+						Cream & Onion The most tastful sour cream and onion flavored rice
+						snacks that have a perferct blend of onion, zest, salt and
+						crispiness. It has a wonderful crunch that makes it the choicest
+						Cream & Onion.
+					</p>
+				</div>
+			</article>
+			<article>
+				<div class="content">
+					<div class="product-item text-center">
+						<img src="images/mb3.png" alt="" />
+					</div>
+					<div class="text-center co product-name">Prei Peri</div>
+				</div>
+				<p class="pad15 text-center">
+					Peri Peri What better way to enjoy hanging out with friends than
+					with tasty packs of Peri Peri from Mouth Burst. These crisp finger
+					snacks are filled with delightful spices at every bits, ideal
+					appetizers for gossipy talks!
+				</p>
+			</article>
+		</div>
+
+		<div>
+
+			<!-- One -->
+			<section id="one" class="pd-sec">
+				<div class="container">
+					<div class="row justify-content-md-center">
+						<div class="col-3">
+							<div class="product-item text-center">
+								<img src="images/mb1.png" alt="" />
+							</div>
+						</div>
+						<div class="col-9 col-md-6 col-sm-6 align-self-center pd-text">
+							Tangy Tomato like things tangy? This is just the ideal flavor rice
+							snacks for you. Sweet and flavorful, indulge in the aromatic tomato
+							test! To cheer up your mood, open a pack of Tangy Tomato!
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="secProduct" class="pd-sec">
+				<div class="container">
+					<div class="row justify-content-md-center">
+						<div class="col-9 col-md-6 col-sm-6 align-self-center pd-text">
+							Cream & Onion The most tastful sour cream and onion flavored rice
+							snacks that have a perferct blend of onion, zest, salt and
+							crispiness. It has a wonderful crunch that makes it the choicest
+							Cream & Onion.
+						</div>
+						<div class="col-3">
+							<div class="product-item text-center">
+								<img src="images/mb2.png" alt="" />
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="thirdProduct" class="pd-sec">
+				<div class="container">
+					<div class="row justify-content-md-center">
+						<div class="col-3">
+							<div class="product-item text-center">
+								<img src="images/mb3.png" alt="" />
+							</div>
+						</div>
+						<div class="col-9 col-md-6 col-sm-6 align-self-center pd-text">
+							Peri Peri What better way to enjoy hanging out with friends than
+							with tasty packs of Peri Peri from Mouth Burst. These crisp finger
+							snacks are filled with delightful spices at every bits, ideal
+							appetizers for gossipy talks!
+						</div>
+					</div>
+				</div>
+				<div id="contactUs"></div>
+			</section>
+
+
+		</div>
+
+
+
+
+
+	</section>
+
+	<!-- Footer -->
+	<section id="footer">
+		<div class="inner">
+			<header>
+				<h2>Get in Touch</h2>
+			</header>
+			<form method="post" action="#">
+				<div class="field half first">
+					<label for="name">Name</label>
+					<input type="text" name="name" id="name" />
+				</div>
+				<div class="field half">
+					<label for="email">Email</label>
+					<input type="text" name="email" id="email" />
+				</div>
+				<div class="field">
+					<label for="message">Message</label>
+					<textarea name="message" id="message" rows="6"></textarea>
+				</div>
+				<ul class="actions">
+					<li><input type="submit" value="Send Message" class="alt" /></li>
+				</ul>
+			</form>
+			<!-- <div class="copyright">
+						&copy; GeekDiv Design by : <a href="">GeekDiv</a>. Images by <a href="">Shagun Art</a>
+					</div> -->
+		</div>
+	</section>
+
+	<footer id="footer-item" class="text-center">
+		<div class="container">
+			<ul class="icons">
+				<li class="mrg-top"><a class="icon fa-twitter icon-color-white"
+						href="https://twitter.com/mouthburst"><span class="label">Twitter</span></a></li>
+				<li class="mrg-top"><a class="icon fa-facebook icon-color-white"
+						href="https://www.facebook.com/mouthburst.co.uk/"><span class="label">Facebook</span></a></li>
+				<li class="mrg-top"><a class="icon fa-instagram icon-color-white"
+						href="https://www.instagram.com/mouthburst.co.uk/"><span class="label">Instagram</span></a></li>
+				<li class="mrg-top"><a class="icon fa-envelope-o icon-color-white"
+						href="mailto:info@ mouthburst.co.uk"><span class="label">Email</span></a></li>
+			</ul>
+		</div>
+
+		<p>
+			<a href="mailto:info@ mouthburst.co.uk" class="icon-color-white">
+				<i class="fa fa-envelope-o"> info@ mouthburst.co.uk</i>
+			</a>
+			<span class="pad-top-bot">|</span>
+			<a href="mailto:media@mouthburst.co.uk" class="icon-color-white">
+				<i class="fa fa-envelope-o"> media@mouthburst.co.uk</i>
+			</a>
+			<span class="pad-top-bot">|</span>
+			<a href="mailto:customercare@mouthburst.co.uk" class="icon-color-white">
+				<i class="fa fa-envelope-o"> customercare@mouthburst.co.uk</i>
+			</a>
+
+			<div class="text-center">
+				<a class="icon-color-white ">
+					<i class="fa fa-map-marker"></i> P.O. Box 6945, London, W1A6US
+				</a>
+			</div>
+
+
+		</p>
+
+		<p>
+			<span class="copyright">
+				&copy; Copyright 2019 Mouthburst | All Rights Reserved
+				<span class=" d-none d-md-block d-lg-block">
+					Design by : Shagun Art & GeekDiv.
+				</span>
+				<br />
+				<a class="icon-color-white" href="./term-and-condition">
+					Terms and Conditions
+				</a>
+
+			</span>
+			<div class="hideDiv">
+				&copy;
+			</div>
+	</footer>
+
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+	<script src="assets/js/skel.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
 
 </body>
 
