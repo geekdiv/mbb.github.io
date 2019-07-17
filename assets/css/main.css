@@ -2238,8 +2238,8 @@ section .inner {
 }
 @media screen and (max-width: 480px) {
 	section .inner {
-		max-width: 90%;
-		width: 90%;
+		max-width: 90% !important;
+		width: 90% !important;
 	}
 }
 header p {
@@ -3790,3 +3790,23 @@ span.d-none.d-md-block.d-lg-block.tnc-link {
     color: #cecece;
     font-size: 18px;
 }
+
+@media only screen and (max-width: 980px) {
+	.mobile-menu {
+		display: inline-block !important;
+	}
+	.dasktop-menu {
+		display: none !important;
+	}
+  }
+
+@media only screen and (min-width: 980px) {
+	
+	.mobile-menu {
+		display: none !important;
+	}
+	
+	.dasktop-menu {
+		display: inline-block !important;
+	}
+  }
