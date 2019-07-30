@@ -3810,3 +3810,8 @@ span.d-none.d-md-block.d-lg-block.tnc-link {
 		display: inline-block !important;
 	}
   }
+
+div#contactUs {
+	color: #717171;
+	text-align: center;  
+}
